@@ -40,4 +40,5 @@ public class SavingsAccount extends BankAccount{
     public double getMaxWithdrawalLimit() {
         return maxWithdrawalLimit;
     }
+
 }
