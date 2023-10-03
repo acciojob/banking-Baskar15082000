@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        try {
+
             // Creating a SavingsAccount
             SavingsAccount savingsAccount = new SavingsAccount("John Doe", 10000, 5000, 0.05);
             System.out.println("Savings Account Balance: " + savingsAccount.balance); // Access the balance field directly
@@ -22,8 +22,6 @@ public class Main {
             // Generating an account number
             String accountNumber = studentAccount.generateAccountNumber(6, 24);
             System.out.println("Generated Account Number: " + accountNumber);
-        } catch (Exception e) {
-            System.out.println("Exception: " + e.getMessage());
-        }
+
     }
 }
